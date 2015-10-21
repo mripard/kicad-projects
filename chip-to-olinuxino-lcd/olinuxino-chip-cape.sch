@@ -108,9 +108,9 @@ GPIO1
 Text Label 8150 2900 0    60   ~ 0
 PWM0
 Text Label 8150 3000 0    60   ~ 0
-TPX2
+TP_X+
 Text Label 8150 3100 0    60   ~ 0
-TPY2
+TP_Y+
 Text Label 6850 1500 2    60   ~ 0
 LCD_D18
 Text Label 6850 1600 2    60   ~ 0
@@ -138,17 +138,17 @@ GPIO0
 Text Label 6850 2900 2    60   ~ 0
 LCD_PWR
 Text Label 6850 3000 2    60   ~ 0
-TPX1
+TP_X-
 Text Label 6850 3100 2    60   ~ 0
-TPY1
+TP_Y-
 Text Label 5250 2500 0    60   ~ 0
 GPIO0
 Text Label 5250 2600 0    60   ~ 0
 GPIO1
 Text Label 3050 1800 0    60   ~ 0
-TPX2
+TP_X+
 Text Label 3050 1900 0    60   ~ 0
-TPY2
+TP_Y+
 Text Label 3050 2000 0    60   ~ 0
 PWM0
 Text Label 3050 2100 0    60   ~ 0
@@ -174,9 +174,9 @@ LCD_HSYNC
 Text Label 3050 3100 0    60   ~ 0
 LCD_DE
 Text Label 1750 1800 2    60   ~ 0
-TPX1
+TP_X-
 Text Label 1750 1900 2    60   ~ 0
-TPY1
+TP_Y-
 Text Label 1750 2000 2    60   ~ 0
 LCD_D2
 Text Label 1750 2100 2    60   ~ 0
