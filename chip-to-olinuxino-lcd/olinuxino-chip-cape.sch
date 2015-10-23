@@ -77,8 +77,6 @@ F 3 "" H 7500 2150 60  0000 C CNN
 	1    7500 2150
 	1    0    0    -1  
 $EndComp
-Text Label 3950 1200 2    60   ~ 0
-GND
 Text Label 5250 1200 0    60   ~ 0
 5V
 Text Label 8150 1500 0    60   ~ 0
@@ -243,13 +241,9 @@ NoConn ~ 4200 2700
 NoConn ~ 4200 2800
 NoConn ~ 4200 2900
 NoConn ~ 4200 3000
-NoConn ~ 2000 3100
-NoConn ~ 2000 1200
 NoConn ~ 2000 1300
 Text Label 1750 1400 2    60   ~ 0
 3.3V
-Wire Wire Line
-	3950 1200 4200 1200
 Wire Wire Line
 	5250 1200 5000 1200
 Wire Wire Line
@@ -441,7 +435,7 @@ GND
 Text Label 9000 1400 2    60   ~ 0
 5V
 Text Label 8150 1200 0    60   ~ 0
-GND
+GND2
 Wire Wire Line
 	6850 1300 7100 1300
 Text Label 6850 1200 2    60   ~ 0
@@ -449,4 +443,13 @@ Text Label 6850 1200 2    60   ~ 0
 Text Label 6850 1300 2    60   ~ 0
 3.3V
 NoConn ~ 4200 3100
+Wire Wire Line
+	1750 1200 2000 1200
+Text Label 1750 1200 2    60   ~ 0
+GND
+NoConn ~ 4200 1200
+Wire Wire Line
+	1750 3100 2000 3100
+Text Label 1750 3100 2    60   ~ 0
+GND2
 $EndSCHEMATC
